@@ -1,0 +1,20 @@
+Package: freshproject
+Type: Package
+Title: Fresh Project
+Version: 0.1.0
+Depends: R (>= 3.6.1)
+Imports:
+    bibtex (>= 0.4.2),
+    stringr (>= 1.4.0)
+Published: 2020-01-18
+Author: Dom Grisafe
+Maintainer: Dom Grisafe <21165092+dgrisafe@users.noreply.github.com>
+Description: Create folders for a new scientific project.
+    I found myself manually recreating the same folders and subfolders.
+    This package is my attempt at organizing my personal as an
+    epidemiologist studying clinical data. But I think this 
+    project organization will be useful for all scientific
+    data analysis projects, regardless of discipline.
+License: MIT License
+Encoding: UTF-8
+LazyData: true
