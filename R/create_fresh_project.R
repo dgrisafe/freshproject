@@ -1,11 +1,18 @@
-# proj_name
-#    whats the name of the project?
-#    this will be the name of the main folder for the project
-
-# proj_dir
-#    directory where you would like to set up the project
-
-create_fresh_project <- function(proj_name = "Fresh Project", proj_dir = "/Users/USC/Documents/GitHub/freshproject"){
+#' Create folders for a new scientific data analysis project.
+#'
+#' @import bibtex
+#' @import stringr
+#'
+#' @param proj_name What is the name of the project? This will be the name of the main folder for the project.
+#' @param proj_dir A directory where you would like to set up the project.
+#' @return A new project named \code{proj_name} is created in the project directory \code{proj_dir}.
+#' @return Examples Include:
+#' @return create_fresh_project(proj_name = "Fresh Project", proj_dir = "/Users/USC/Documents/GitHub/freshproject")
+#' @return create_fresh_project(proj_name = "My Fresh Project", proj_dir = "/Users/USC/Desktop")
+#' @return create_fresh_project(proj_name = "Even Fresher Project", proj_dir = "/Users/USC/Desktop")
+#' @return create_fresh_project(proj_name = "The Freshest Project", proj_dir = "/Users/USC/Desktop")
+#'
+create_fresh_project <- function(proj_name = "Fresh Project", proj_dir){
 
   # function to append paths of directories or files
   append_path <- function(path_first, path_add){paste(path_first, path_add, sep = "/")}
