@@ -12,6 +12,7 @@
 #' @return create_fresh_project(proj_name = "Even Fresher Project", proj_dir = "/Users/USC/Desktop")
 #' @return create_fresh_project(proj_name = "The Freshest Project", proj_dir = "/Users/USC/Desktop")
 #'
+#' @export
 create_fresh_project <- function(proj_name = "Fresh Project", proj_dir){
 
   # function to append paths of directories or files
